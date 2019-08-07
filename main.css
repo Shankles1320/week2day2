@@ -1,0 +1,84 @@
+body {
+    height: 100vh;
+}
+
+
+header img{
+    width: 60px;
+    position: relative; 
+}
+
+
+header > div {
+    height: 100%;
+    width: 100%;
+    background:#24292e;
+    margin: 0 auto;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.searchbar{
+    height:40px;
+    width: 200px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    display:flex;
+}
+
+header li {
+    margin: 0 15px;
+    vertical-align: text-top;
+    color: white; 
+}
+ header li a{
+     color:white;
+ }
+
+ main {
+     width: 100vw;
+ }
+
+ 
+ .container {
+     width: 80%;
+     margin: 0 auto;
+     display: flex;
+ 
+ }
+
+
+ h1 {
+     font-size: 30px; 
+     align-items: center;
+ }
+ 
+.box1, .box2, .box3, .box4, .box5, .box6{
+    height:50px;
+    width:100px;
+    background: orange;
+    display: flex;
+    
+
+}
+.content {
+    margin: 0 auto;
+    top: 0;
+    justify-content: space-between;
+
+}
+
+.info {
+    
+
+}
+
+
+
+
